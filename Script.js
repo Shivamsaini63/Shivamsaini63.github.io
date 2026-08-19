@@ -1,6 +1,7 @@
 /* Page System*/
 let currentPage = 1;
 const totalPages = 5;
+const bgMusic = document.getElementById("bgMusic");
 function showPage(pageNumber) {
     const pages = document.querySelectorAll(".page");
     pages.forEach(function (page) {
